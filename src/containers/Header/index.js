@@ -10,7 +10,7 @@ const Header = () => {
   const [device, setDevice] = useState("desctop");
 
   return (
-    <div className="flex  py-4 px-12 shadow-md items-center justify-between">
+    <div className="flex py-4 px-12 shadow-md items-center justify-between">
       <div className="flex">
         <div className="w-[66px] sm:mr-14">
           <img src={logo} className="w-full h-full" />
